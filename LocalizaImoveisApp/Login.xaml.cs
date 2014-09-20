@@ -16,5 +16,10 @@ namespace LocalizaImoveisApp
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Mapa.xaml", UriKind.Relative));
+        }
     }
 }

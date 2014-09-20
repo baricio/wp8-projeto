@@ -30,7 +30,7 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBox HorizontalAlignment="Left" Height="72" Margin="10,105,-10,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="456"/>
             <TextBox HorizontalAlignment="Left" Height="72" Margin="10,199,-10,0" TextWrapping="Wrap" Text="Senha" VerticalAlignment="Top" Width="456"/>
-            <Button Content="Entrar" HorizontalAlignment="Left" Margin="10,416,0,0" VerticalAlignment="Top" Width="436"/>
+            <Button Content="Entrar" HorizontalAlignment="Left" Margin="10,416,0,0" VerticalAlignment="Top" Width="436" Click="Button_Click"/>
 
         </Grid>
     </Grid>
